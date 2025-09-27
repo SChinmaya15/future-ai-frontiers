@@ -44,13 +44,13 @@ const CTASection = () => {
             <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6 border border-white/20 hover:bg-white/20 transition-all duration-300 group">
               <Mail className="w-8 h-8 text-white mb-3 mx-auto group-hover:scale-110 transition-transform" />
               <h3 className="font-semibold text-white mb-1">Email Us</h3>
-              <p className="text-white/80 text-sm">info@futuretech.ai</p>
+              <p className="text-white/80 text-sm">sales@futuretechs.co.in</p>
             </div>
             
             <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6 border border-white/20 hover:bg-white/20 transition-all duration-300 group">
               <Phone className="w-8 h-8 text-white mb-3 mx-auto group-hover:scale-110 transition-transform" />
               <h3 className="font-semibold text-white mb-1">Call Us</h3>
-              <p className="text-white/80 text-sm">+1 (555) 123-4567</p>
+              <p className="text-white/80 text-sm">+91 (989) 968-6240</p>
             </div>
             
             <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6 border border-white/20 hover:bg-white/20 transition-all duration-300 group">
