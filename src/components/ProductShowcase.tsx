@@ -1,7 +1,8 @@
 import { Button } from "@/components/ui/button";
-import { BookOpen, MessageSquare, Clock, Users, Smartphone, BarChart3, Zap, Shield } from "lucide-react";
+import { BookOpen, MessageSquare, Clock, Users, Smartphone, BarChart3, Zap, Shield, Cloud, Key, Lock, CheckCircle } from "lucide-react";
 import aiTutorImage from "@/assets/ai-tutor.jpg";
 import whatsappSupportImage from "@/assets/whatsapp-support.jpg";
+import wabaServiceImage from "@/assets/waba-service.jpg";
 
 const ProductShowcase = () => {
   return (
@@ -95,7 +96,7 @@ const ProductShowcase = () => {
         </div>
 
         {/* Product 2: WhatsApp Chat-Based Service Ticket System */}
-        <div>
+        <div className="mb-24">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div className="animate-fade-in-up">
               <div className="relative">
@@ -167,8 +168,124 @@ const ProductShowcase = () => {
               <Button className="bg-gradient-to-r from-secondary to-secondary-light text-white font-semibold px-8 py-4 rounded-xl shadow-medium hover:shadow-large transform hover:scale-[1.02] transition-all duration-300">
                 Explore WhatsApp Support
               </Button>
+          </div>
+        </div>
+
+        {/* Product 3: WABA Service */}
+        <div>
+          <div className="grid lg:grid-cols-2 gap-12 items-center">
+            <div className="order-2 lg:order-1 animate-fade-in-up">
+              <div className="inline-flex items-center gap-2 bg-green-500/10 text-green-600 px-4 py-2 rounded-full mb-6">
+                <Smartphone className="w-4 h-4" />
+                <span className="text-sm font-medium">WhatsApp Business API</span>
+              </div>
+              
+              <h3 className="text-3xl md:text-4xl font-bold text-foreground mb-6">
+                WABA Service Platform
+              </h3>
+              
+              <p className="text-lg text-muted-foreground mb-8 leading-relaxed">
+                Complete WhatsApp Business API solution with secure cloud hosting, chatbot implementation, 
+                and enterprise-grade security features compliant with banking guidelines.
+              </p>
+
+              {/* Pricing Cards */}
+              <div className="grid sm:grid-cols-2 gap-4 mb-6">
+                <div className="bg-card border border-border rounded-xl p-4 hover:shadow-medium transition-all">
+                  <div className="text-sm text-muted-foreground mb-1">Platform Fees (Yearly)</div>
+                  <div className="text-2xl font-bold text-foreground">₹20,000 <span className="text-sm font-normal text-muted-foreground">+ GST</span></div>
+                  <div className="text-xs text-muted-foreground line-through">₹25,000</div>
+                </div>
+                
+                <div className="bg-card border border-border rounded-xl p-4 hover:shadow-medium transition-all">
+                  <div className="text-sm text-muted-foreground mb-1">Chatbot Setup (One Time)</div>
+                  <div className="text-2xl font-bold text-foreground">₹20,000 <span className="text-sm font-normal text-muted-foreground">+ GST</span></div>
+                  <div className="text-xs text-muted-foreground line-through">₹25,000</div>
+                </div>
+              </div>
+
+              {/* Features Grid */}
+              <div className="grid sm:grid-cols-2 gap-4 mb-6">
+                <div className="flex items-start gap-3">
+                  <Cloud className="w-5 h-5 text-green-600 mt-1 flex-shrink-0" />
+                  <div>
+                    <h4 className="font-semibold text-foreground mb-1">Amazon Cloud Server</h4>
+                    <p className="text-sm text-muted-foreground">India DC for low latency</p>
+                  </div>
+                </div>
+                
+                <div className="flex items-start gap-3">
+                  <Lock className="w-5 h-5 text-green-600 mt-1 flex-shrink-0" />
+                  <div>
+                    <h4 className="font-semibold text-foreground mb-1">IP-Based Security</h4>
+                    <p className="text-sm text-muted-foreground">Login and API restrictions</p>
+                  </div>
+                </div>
+                
+                <div className="flex items-start gap-3">
+                  <Key className="w-5 h-5 text-green-600 mt-1 flex-shrink-0" />
+                  <div>
+                    <h4 className="font-semibold text-foreground mb-1">Key-Based API</h4>
+                    <p className="text-sm text-muted-foreground">Secure authentication</p>
+                  </div>
+                </div>
+                
+                <div className="flex items-start gap-3">
+                  <Shield className="w-5 h-5 text-green-600 mt-1 flex-shrink-0" />
+                  <div>
+                    <h4 className="font-semibold text-foreground mb-1">Login OTP</h4>
+                    <p className="text-sm text-muted-foreground">Advanced security verification</p>
+                  </div>
+                </div>
+              </div>
+
+              {/* Message Categories */}
+              <div className="bg-accent/50 rounded-lg p-4 mb-6">
+                <h4 className="font-semibold text-foreground mb-2">Messaging Categories:</h4>
+                <div className="flex flex-wrap gap-2">
+                  <span className="bg-primary/10 text-primary px-3 py-1 rounded-full text-sm">Marketing</span>
+                  <span className="bg-secondary/10 text-secondary px-3 py-1 rounded-full text-sm">Utility</span>
+                  <span className="bg-green-500/10 text-green-600 px-3 py-1 rounded-full text-sm">Authentication</span>
+                </div>
+                <p className="text-xs text-muted-foreground mt-2">Messaging costs borne by customer via their payment method</p>
+              </div>
+
+              {/* Requirements */}
+              <div className="bg-card border border-border rounded-lg p-4 mb-8">
+                <h4 className="font-semibold text-foreground mb-3">Requirements:</h4>
+                <div className="space-y-2">
+                  <div className="flex items-center gap-2 text-sm text-muted-foreground">
+                    <CheckCircle className="w-4 h-4 text-green-600" />
+                    <span>Facebook account for Meta Business verification</span>
+                  </div>
+                  <div className="flex items-center gap-2 text-sm text-muted-foreground">
+                    <CheckCircle className="w-4 h-4 text-green-600" />
+                    <span>KYC documents for verification</span>
+                  </div>
+                  <div className="flex items-center gap-2 text-sm text-muted-foreground">
+                    <CheckCircle className="w-4 h-4 text-green-600" />
+                    <span>Domain-based email for verification OTP</span>
+                  </div>
+                </div>
+              </div>
+
+              <Button className="bg-gradient-to-r from-green-500 to-green-600 text-white font-semibold px-8 py-4 rounded-xl shadow-medium hover:shadow-large transform hover:scale-[1.02] transition-all duration-300">
+                Get WABA Service
+              </Button>
+            </div>
+
+            <div className="order-1 lg:order-2 animate-fade-in-up">
+              <div className="relative">
+                <img 
+                  src={wabaServiceImage} 
+                  alt="WhatsApp Business API service platform" 
+                  className="w-full h-auto rounded-2xl shadow-large hover-lift"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-green-500/20 to-transparent rounded-2xl" />
+              </div>
             </div>
           </div>
+        </div>
         </div>
       </div>
     </section>
