@@ -193,14 +193,14 @@ const ProductShowcase = () => {
               <div className="grid sm:grid-cols-2 gap-4 mb-6">
                 <div className="bg-card border border-border rounded-xl p-4 hover:shadow-medium transition-all">
                   <div className="text-sm text-muted-foreground mb-1">Platform Fees (Yearly)</div>
-                  <div className="text-2xl font-bold text-foreground">₹20,000 <span className="text-sm font-normal text-muted-foreground">+ GST</span></div>
-                  <div className="text-xs text-muted-foreground line-through">₹25,000</div>
+                  <div className="text-2xl font-bold text-foreground">₹xx,xxx <span className="text-sm font-normal text-muted-foreground">+ GST</span></div>
+                  <div className="text-xs text-muted-foreground line-through">₹xx,xxx</div>
                 </div>
                 
                 <div className="bg-card border border-border rounded-xl p-4 hover:shadow-medium transition-all">
                   <div className="text-sm text-muted-foreground mb-1">Chatbot Setup (One Time)</div>
-                  <div className="text-2xl font-bold text-foreground">₹20,000 <span className="text-sm font-normal text-muted-foreground">+ GST</span></div>
-                  <div className="text-xs text-muted-foreground line-through">₹25,000</div>
+                  <div className="text-2xl font-bold text-foreground">₹xx,xxx <span className="text-sm font-normal text-muted-foreground">+ GST</span></div>
+                  <div className="text-xs text-muted-foreground line-through">₹xx,xxx</div>
                 </div>
               </div>
 
